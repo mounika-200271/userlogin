@@ -1,13 +1,81 @@
-.image {
-  width: 1429px;
-  height: 810px;
+.frame {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background-color: #343d8e;
+  border: 1px solid;
+  border-color: #00000033;
 }
 
-.image .whatsapp-image {
-  position: fixed;
-  width: 1231px;
-  height: 810px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
+.frame .user {
+  position: absolute;
+  width: 407px;
+  height: 63px;
+  top: 103px;
+  left: 117px;
+  background-color: #c6c6c6;
+  border: 1px solid;
+  border-color: #f5f5f5;
 }
+
+.frame .username {
+  position: absolute;
+  top: 11px;
+  left: 53px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .pwd {
+  position: absolute;
+  width: 407px;
+  height: 63px;
+  top: 213px;
+  left: 117px;
+  background-color: #c6bebe;
+  border: 1px solid;
+  border-color: #f5f5f5;
+}
+
+.frame .password {
+  position: absolute;
+  width: 310px;
+  top: 19px;
+  left: 42px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .lgn {
+  position: absolute;
+  width: 399px;
+  height: 61px;
+  top: 348px;
+  left: 115px;
+  background-color: #ffffff;
+}
+
+.frame .login {
+  position: absolute;
+  width: 115px;
+  top: 23px;
+  left: 147px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #2f5ec4;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
